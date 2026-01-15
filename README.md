@@ -53,9 +53,8 @@ PapaParse – CSV parsing in the browser
 
 Recharts – data visualization
 
-In-memory processing – no backend required
+In-memory processing – no backend
 
-A frontend-only approach was chosen to keep the scope focused on reconciliation logic and user experience.
 
 UX Decisions
 
@@ -77,6 +76,6 @@ Each record contains the fields: invoice_id, date, and amount
 
 invoice_id uniquely identifies a record
 
-Amount comparison is exact (no tolerance or fuzzy matching)
+Amount comparison is exact 
 
 Data size is small enough to be processed in memory
